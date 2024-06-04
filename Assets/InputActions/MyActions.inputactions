@@ -1,0 +1,62 @@
+{
+    "name": "MyActions",
+    "maps": [
+        {
+            "name": "MyLeftHandMapping",
+            "id": "89134ceb-14a8-4f73-854a-ed8846c7322f",
+            "actions": [
+                {
+                    "name": "JoystickClick",
+                    "type": "Button",
+                    "id": "79074ea9-d2eb-4b60-85ee-1d657bf416d5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5b0f2a38-03d9-4905-bb6d-495d44176061",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JoystickClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MyRightHandMapping",
+            "id": "ecd90740-8830-4168-a4f0-2b498f092f1b",
+            "actions": [
+                {
+                    "name": "JoystickClick",
+                    "type": "Button",
+                    "id": "1e1c4f29-1ece-4f33-b99f-5ea0a9140f01",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "82395c43-c589-4282-b974-58c057d7c01e",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JoystickClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
