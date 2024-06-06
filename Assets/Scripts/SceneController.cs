@@ -14,6 +14,7 @@ public class SceneController : MonoBehaviour
 	public Scene CurrentScene;
 	public Camera MainCamera;
 	public float MenuDistance = 2f;
+	public GameObject PlayerXROrigin;
 
 	private void Start()
 	{
@@ -81,6 +82,7 @@ public class SceneController : MonoBehaviour
 		{
 			Debug.Log("Scene not active" + SceneLoaded.name);
 		}
+		PlayerXROrigin.transform.position = new Vector3(0, 0, 0);
 		ToggleSplashScreen(false);
 	}
 
